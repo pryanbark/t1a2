@@ -1,0 +1,244 @@
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+    
+.nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: gray;
+}
+
+#dp {
+    display: flex;
+    justify-content: center;
+}
+
+img[src="img/portfolio-dp.png"] {
+    border-radius: 50%;
+    width: 50%;
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1007px) {
+    img[src="img/portfolio-dp.png"] {
+        width: 37.5%;
+    }
+}
+
+@media only screen and (min-width: 1008px) {
+    img[src="img/portfolio-dp.png"] {
+        width: 25%;
+    }
+}
+
+#intro {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+#about-me {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+section {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+body {
+    background-image: url("../img/ye.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Open Sans';
+    margin: 0px 75px;
+}
+
+img[src="img/pdf-icon.png"] {
+    width: 50px;
+}
+
+.project-1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 100%;
+}
+
+img[src="img/etu.jpg"] {
+    width: 200px;
+    height: 200px;
+}
+
+.project-2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 100%;
+}
+
+img[src="img/hasbulla.jpg"] {
+    width: 200px;
+    height: 200px;
+}
+
+.project-3 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 100%;
+}
+
+img[src="img/beetlejuice.webp"] {
+    width: 200px;
+    height: 200px;
+}
+
+.project-4 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 100%;
+}
+
+img[src="img/mike.jpg"] {
+    width: 200px;
+    height: 200px;
+}
+
+.all-projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+.blog-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+img[src="img/one.jpg"] {
+    width: 200px;
+    height: 200px;
+}
+
+.blog-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+img[src="img/two.jpg"] {
+    width: 200px;
+    height: 200px;
+}
+
+.blog-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+img[src="img/three.jpg"] {
+    width: 200px;
+    height: 200px;
+}
+
+.blog-4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+img[src="img/four.jpg"] {
+    width: 200px;
+    height: 200px;
+}
+
+.blog-5 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+img[src="img/five.jpg"] {
+    width: 200px;
+    height: 200px;
+}
+
+.blogs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
