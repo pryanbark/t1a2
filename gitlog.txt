@@ -1,3 +1,9 @@
+commit fc1566a63d3c39dc49912e1125f3e9bde0b134c6
+Author: Bryan <12004@coderacademy.edu.au>
+Date:   Sun Mar 13 09:56:13 2022 +1000
+
+    add gitlog
+
 commit 86e6ea2700db37584eb0c231bec0c1aca9f1fbc1
 Author: Bryan <12004@coderacademy.edu.au>
 Date:   Sun Mar 13 09:42:24 2022 +1000
